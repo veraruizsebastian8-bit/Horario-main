@@ -1,0 +1,121 @@
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+}
+
+th, td {
+  border: 1px solid #000000; 
+  padding: 12px 15px;       
+  text-align: center;
+  vertical-align: middle;
+}
+
+
+caption {
+  text-align: left;
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-bottom: 12px;
+  color: #000000;
+}
+
+
+thead tr {
+  background-color: #ecbc1d;
+  color: #ffffff;
+}
+
+thead th {
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+
+thead th {
+  position: sticky; 
+  top: 0;
+  z-index: 10;
+}
+
+
+tbody th {
+  background-color: #ed3a54; 
+  font-size: 0.85rem;        
+  color: #020202;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+
+.tecnica {
+  background-color: #5dc728; 
+  color: #75073a;
+}
+
+.transversal {
+  background-color: #d7c0da; 
+  color: #cbe2e0;
+}
+
+.proyecto {
+  background-color: #ff9d00; 
+  color: #1c00bd;
+}
+
+.libre {
+  background-color: #61ec5d; 
+  color: #645954;
+}
+
+
+tr.pausa, td.pausa {
+  background-color: #eeeeee; 
+  font-style: italic;        
+  text-align: center;         
+  color: #030303;
+  font-weight: 500;
+}
+
+
+.ambiente {
+  display: block;            
+  font-size: 0.75rem;        
+  color: #000000;            
+  margin-top: 4px;
+}
+
+
+tbody td:hover {
+  filter: brightness(0.92);
+  cursor: pointer;
+  transition: background-color 0.2s ease, filter 0.2s ease;
+}
+
+
+tfoot {
+  font-size: 0.8rem;  
+  text-align: right;  
+  color: #666666;
+}
+
+tfoot td {
+  text-align: right;
+  padding: 10px;
+}
+
+
+.tabla-contenedor {
+  overflow-x: auto;   
+  width: 100%;
+}
+
+
+.horario {
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 15px;
+}
